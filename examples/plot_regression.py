@@ -52,13 +52,13 @@ xtr = np.arange(len(ytr))  # segment number
 xte = np.arange(len(yte)) + len(xtr)
 
 # plot the amazing results
-plt.plot(xtr, ytr, '.', label="training")
-plt.plot(xte, yte, '.', label="actual")
-plt.plot(xte, yte_p, label="predicted")
-plt.xlabel("Segment Number")
-plt.ylabel("Target")
-plt.legend()
-plt.show()
+#plt.plot(xtr, ytr, '.', label="training")
+#plt.plot(xte, yte, '.', label="actual")
+#plt.plot(xte, yte_p, label="predicted")
+#plt.xlabel("Segment Number")
+#plt.ylabel("Target")
+#plt.legend()
+#plt.show()
 
 # # now try a cross validation
 # X = [np.arange(4000) / 100.]
