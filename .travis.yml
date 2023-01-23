@@ -19,6 +19,7 @@ install:
 
 script:
   - pytest --cov seglearn
+  - python examples/plot_regression.py
 
 after_success:
   - coveralls
