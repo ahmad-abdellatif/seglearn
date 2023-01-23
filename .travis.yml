@@ -24,4 +24,4 @@ script:
   - python examples/plot_forecast.py
 
 after_success:
-  - coveralls
+  - coveralls 
