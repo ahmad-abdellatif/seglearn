@@ -73,12 +73,12 @@ tga = ts[len(ytr):(Ns - len(yte))]
 yga = y[len(ytr):(Ns - len(yte))]
 
 # plot the results
-plt.plot(ttr, ytr, '.', label="training")
-plt.plot(tga, yga, '.', label="gap")
-plt.plot(tte, yte, '.', label="test")
-plt.plot(tte, yte_p, label="predicted")
+# plt.plot(ttr, ytr, '.', label="training")
+# plt.plot(tga, yga, '.', label="gap")
+# plt.plot(tte, yte, '.', label="test")
+# plt.plot(tte, yte_p, label="predicted")
 
-plt.xlabel("Segment Number")
-plt.ylabel("Target")
-plt.legend()
-plt.show()
+# plt.xlabel("Segment Number")
+# plt.ylabel("Target")
+# plt.legend()
+# plt.show()
