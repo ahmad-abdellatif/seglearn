@@ -4,7 +4,6 @@ os:
   - linux
   
 dist:
-  - xenial
   - trusty
   - bionic
 
