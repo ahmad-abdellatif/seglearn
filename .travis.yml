@@ -1,18 +1,24 @@
 language: python
-os:
-  - linux
 
 matrix:
   include:
-    - dist: trusty
-    - dist: xenial
-    - dist: bionic
-
-python:
-  - "3.5"
-  - "3.6"
-  - "3.8"
-
+  - dist: xenial
+    os: linux
+    language: python
+    python: "3.5"
+  - dist: xenial
+    os: linux
+    language: python
+    python: "3.6"
+  - dist: trusty
+    os: linux
+    language: python
+    python: "3.5"
+  - dist: trusty
+    os: linux
+    language: python
+    python: "3.6"
+    
 install:
   - pip install numpy
   - pip install matplotlib
