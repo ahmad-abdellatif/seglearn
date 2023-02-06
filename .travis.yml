@@ -1,12 +1,13 @@
 language: python
-
 os:
   - linux
-  
+
+
 matrix:
   include:
-  - dist: trusty
-  - dist: bionic
+    - dist: trusty
+     - dist: xenial
+     - dist: bionic
 
 python:
   - "3.5"
