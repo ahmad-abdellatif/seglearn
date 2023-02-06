@@ -3,9 +3,10 @@ language: python
 os:
   - linux
   
-dist:
-  - trusty
-  - bionic
+jobs:
+  include:
+  - dist: trusty
+  - dist: bionic
 
 python:
   - "3.5"
